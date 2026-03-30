@@ -1,0 +1,146 @@
+{
+  "catalogue": {
+    "smartphones": [
+      {
+        "id": "SV-PH-001",
+        "nom": "TechPhone Pro 15",
+        "marque": "TechBrand",
+        "prix": 899.99,
+        "stock": "disponible",
+        "caracteristiques": {
+          "ecran": "6.7 pouces OLED 120Hz",
+          "processeur": "Octa-core 3.2 GHz",
+          "ram": "12 Go",
+          "stockage": ["256 Go", "512 Go"],
+          "batterie": "5000 mAh, charge rapide 65W",
+          "appareil_photo": "Triple caméra 108MP + 12MP + 5MP",
+          "os": "Android 14",
+          "5g": true,
+          "resistance_eau": "IP68"
+        },
+        "note_clients": 4.6,
+        "nb_avis": 1243,
+        "points_forts": ["Excellente autonomie", "Photos de nuit exceptionnelles", "Charge ultra-rapide"],
+        "points_faibles": ["Encombrant pour les petites mains", "Pas de port jack 3.5mm"]
+      },
+      {
+        "id": "SV-PH-002",
+        "nom": "TechPhone Lite 15",
+        "marque": "TechBrand",
+        "prix": 599.99,
+        "stock": "disponible",
+        "caracteristiques": {
+          "ecran": "6.1 pouces AMOLED 90Hz",
+          "processeur": "Octa-core 2.4 GHz",
+          "ram": "8 Go",
+          "stockage": ["128 Go", "256 Go"],
+          "batterie": "4000 mAh, charge rapide 33W",
+          "appareil_photo": "Double caméra 64MP + 8MP",
+          "os": "Android 14",
+          "5g": true,
+          "resistance_eau": "IP67"
+        },
+        "note_clients": 4.3,
+        "nb_avis": 876,
+        "points_forts": ["Format compact", "Bon rapport qualité-prix", "Léger"],
+        "points_faibles": ["Autonomie moyenne", "Charge moins rapide que le Pro"]
+      },
+      {
+        "id": "SV-PH-003",
+        "nom": "BudgetPhone X3",
+        "marque": "EcoMobile",
+        "prix": 249.99,
+        "stock": "disponible",
+        "caracteristiques": {
+          "ecran": "6.5 pouces LCD 60Hz",
+          "processeur": "Quad-core 2.0 GHz",
+          "ram": "4 Go",
+          "stockage": ["64 Go", "128 Go"],
+          "batterie": "5000 mAh, charge standard 18W",
+          "appareil_photo": "Triple caméra 50MP + 5MP + 2MP",
+          "os": "Android 13",
+          "5g": false,
+          "resistance_eau": "IPX4 (résistant aux éclaboussures)"
+        },
+        "note_clients": 4.0,
+        "nb_avis": 2341,
+        "points_forts": ["Prix imbattable", "Grande autonomie", "Idéal premier smartphone"],
+        "points_faibles": ["Pas de 5G", "Écran LCD moins lumineux", "Performances limitées pour les jeux"]
+      }
+    ],
+    "ordinateurs_portables": [
+      {
+        "id": "SV-PC-001",
+        "nom": "UltraBook Pro 14",
+        "marque": "CompuTech",
+        "prix": 1299.99,
+        "stock": "disponible",
+        "caracteristiques": {
+          "ecran": "14 pouces IPS 2560x1600 400 nits",
+          "processeur": "Intel Core i7-13700H",
+          "ram": "16 Go DDR5",
+          "stockage": "SSD 512 Go NVMe",
+          "batterie": "72 Wh, autonomie estimée 12h",
+          "poids": "1.4 kg",
+          "ports": ["USB-C Thunderbolt 4 x2", "USB-A x2", "HDMI 2.0", "Jack 3.5mm", "Lecteur SD"],
+          "os": "Windows 11 Pro"
+        },
+        "note_clients": 4.7,
+        "nb_avis": 567,
+        "points_forts": ["Légèreté exceptionnelle", "Écran magnifique", "Excellente autonomie", "Finition premium"],
+        "points_faibles": ["Prix élevé", "Pas de GPU dédié pour les jeux"]
+      },
+      {
+        "id": "SV-PC-002",
+        "nom": "GamingBook RTX 16",
+        "marque": "PowerPlay",
+        "prix": 1799.99,
+        "stock": "stock limité (3 unités)",
+        "caracteristiques": {
+          "ecran": "16 pouces IPS 1920x1080 144Hz",
+          "processeur": "AMD Ryzen 7 7745HX",
+          "ram": "32 Go DDR5",
+          "stockage": "SSD 1 To NVMe",
+          "gpu": "NVIDIA RTX 4070 8 Go",
+          "batterie": "99 Wh, autonomie estimée 4h (bureautique)",
+          "poids": "2.8 kg",
+          "ports": ["USB-C x2", "USB-A x3", "HDMI 2.1", "RJ45 Ethernet", "Jack 3.5mm"],
+          "os": "Windows 11 Home"
+        },
+        "note_clients": 4.5,
+        "nb_avis": 234,
+        "points_forts": ["Performances gaming excellentes", "Écran 144Hz fluide", "RAM généreuse"],
+        "points_faibles": ["Lourd et encombrant", "Autonomie faible en gaming", "Chauffe sous charge"]
+      }
+    ],
+    "televiseurs": [
+      {
+        "id": "SV-TV-001",
+        "nom": "VisionMax 55 QLED",
+        "marque": "ScreenKing",
+        "prix": 699.99,
+        "stock": "disponible",
+        "caracteristiques": {
+          "taille": "55 pouces",
+          "technologie": "QLED",
+          "resolution": "4K UHD (3840x2160)",
+          "hdr": "HDR10+, Dolby Vision",
+          "refresh_rate": "100 Hz",
+          "smart_tv": "Tizen OS",
+          "connectique": ["HDMI 2.1 x4", "USB x3", "Bluetooth 5.0", "Wi-Fi 6"],
+          "son": "40W Dolby Atmos"
+        },
+        "note_clients": 4.4,
+        "nb_avis": 891,
+        "points_forts": ["Couleurs éclatantes", "Compatible gaming (HDMI 2.1)", "Son intégré de qualité"],
+        "points_faibles": ["Noirs moins profonds qu'un OLED", "Interface Tizen parfois lente"]
+      }
+    ]
+  },
+  "comparatifs": {
+    "smartphones_budget_vs_premium": {
+      "question_type": "comparaison",
+      "resume": "Le TechPhone Pro 15 est idéal pour les utilisateurs exigeants (photo, gaming, 5G haute performance) grâce à son écran OLED 120Hz et son triple capteur 108MP. Le BudgetPhone X3 convient parfaitement aux utilisateurs recherchant un smartphone fiable au quotidien sans dépenser plus de 250€, avec une autonomie excellente. La différence de prix (650€) se justifie principalement par la qualité photo, la vitesse de charge et l'expérience écran."
+    }
+  }
+}
